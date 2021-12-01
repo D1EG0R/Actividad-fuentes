@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@font-face {
+    font-family: PottaOne;
+    src: url(fuentes/PottaOne-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: YuseiMagic;
+    src: url(fuentes/YuseiMagic-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: CodaCaption;
+    src: url(fuentes/CodaCaption-ExtraBold.ttf) format("TrueType");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.tituloPotato1{
+    position: relative;
+    font-family: PottaOne;
+    width: 75vw;
+    height: 3.5vw;
+    background-color:  blue;
+    color: yellow;
+    left: 0px;
+    text-align: center;
+
+}
+
+.tituloPotato2{
+    font-family: PottaOne;
+}
+
+.CodaCaption{
+    font-family: CodaCaption;
+}
+
+.yuseiMagic{
+    font-family: YuseiMagic;
+}
+
+.p{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    font-size: 1.2vw;
+}
+.tituloPotato2 p:first-child{
+    color: white;
+    font-family: Arial;
+    line-height: 120%;
+    background-color: rgb(22, 122, 117);
+    display: inline-block;
+    position: static;
+    width: 30vw;
+
+}
+br {
+    top: 50px;
+}
+p:nth-child(2){
+    line-height: 200%;
+    font-family: Arial;
+    display: inline-block;
+    position: absolute;
+    width: 70vw;
+    top: 65px;
+}
+mark{
+    background-color: black;
+    color: yellow;
+}
+
+.hr{
+    background-color: blue;
+    width: 75vw;
+    height: 1vw;
+    ;
+}
+
+#hr1{
+    position: relative;
+    width: 45vw;
+    left: 40vw;
+    top: -1vw;
+}
+#hr2{
+    position: relative;
+    width: 50vw;
+    left: 25vw;
+}
